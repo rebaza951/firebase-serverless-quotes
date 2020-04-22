@@ -64,7 +64,7 @@ logoutButton.addEventListener("click", async (event) => {
   event.preventDefault();
   await logout();
 });
-
+// TRIGGERED EVERY SINGLE STATE CHANGE
 auth.onAuthStateChanged(async (user) => {
   if (user) {
     const idTokenResult = await user.getIdTokenResult();

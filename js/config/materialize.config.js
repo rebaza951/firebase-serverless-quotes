@@ -3,5 +3,5 @@ document.addEventListener("DOMContentLoaded", () => {
   M.Modal.init(modals);
 
   const items = document.querySelectorAll(".collapsible");
-  M.Modal.init(items);
+  M.Collapsible.init(items);
 });
